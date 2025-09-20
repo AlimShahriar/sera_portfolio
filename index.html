@@ -1,167 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>adhaar card</title>
-  <link rel="stylesheet" href="istail/style.css">
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+     
+      background: #0d0d0d; 
+      color: #fce4ec; 
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(135deg, #29001a, #0d0d0d);
+      box-shadow: 0 0 20px #ff007f;
+    }
+    header img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 4px solid #ff007f;
+      box-shadow: 0 0 15px #ff007f;
+    }
+    header h1 {
+      margin: 1rem 0 0.5rem;
+      color: #ff4da6;
+      text-shadow: 0 0 8px #ff007f;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #ff99cc;
+    }
+    nav {
+      background: #1a0013;
+      text-align: center;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 10px #ff007f33;
+    }
+    nav a {
+      color: #ff66b2;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+      text-shadow: 0 0 10px #ff007f;
+    }
+    section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    section h2 {
+      color: #ff4da6;
+      margin-bottom: 1.5rem;
+      text-shadow: 0 0 10px #ff007f;
+    }
+    .projects {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 25px;
+    }
+    .card {
+      background: #1a0013;
+      padding: 1.5rem;
+      border-radius: 15px;
+      width: 260px;
+      box-shadow: 0 0 15px #ff007f44;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 25px #ff007f;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #1a0013;
+      color: #ff99cc;
+      box-shadow: 0 -2px 15px #ff007f33;
+    }
+    header img {
+  width: 250px;  /* bigger */
+  height: 250px;
+  border-radius: 50%;
+  border: 5px solid #ff007f;
+  box-shadow: 0 0 25px #ff007f;
+}
+
+#about {
+  max-width: 800px;   /* keep it centered and wider */
+  margin: 0 auto;
+  font-size: 1.3rem;  /* bigger text */
+  line-height: 1.8;
+}
+  </style>
 </head>
-
 <body>
-  <header id="header" class="alu maxwidth">
 
-
-    <nav id="nav">
-
-      <div>
-
-        <h2>donation</h2>
-      </div>
-      <div>
-        <button>details</button>
-        <button>form</button>
-        <button>login</button>
-      </div>
-    </nav>
-
-    
-      <section  id="banner">
-        <div>
-        <h1 style="font-size: 64px;">
-          love you
-        </h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur repellat minus esse, deserunt tempora eius
-        
-        </p>
-        <div>
-          <button class="btn">love you</button>
-          <button style="padding: 10px; border-radius: 5px;">watch now</button>
-        </div>
-    </div>
-    <div style="position: relative;">
-      <img style="width: 250px; z-index: 2;" src="sobi/beda.png" alt="">
-      <img style="position: absolute; width: 400px; z-index: -1 ; right: -54px; top: 100px;" src="sobi/image.png" alt="">
-    </div>
-    </section>
+  <header>
+    <img src="ig post 8.jpg" alt="My Photo">
+    <h1>Alim Shahriar</h1>
+    <p> Coder | Designer | Athlete</p>
   </header>
-  <section id="main">
 
-<div style="text-align: center;">
-  <h1 style="font-size: 64px;margin: 20px; ">
-sodqa koro
-  </h1>
-  <p style="margin: 20px;">
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum sint recusandae, rerum perspiciatis enim temporibus autem qui suscipit.
-  </p>
-</div>
-<div>
-  <button class="btn1">100 taka</button>
-  <button id="teka" class="btn1">200 taka</button>
-  <button class="btn1">300 taka</button>
-  <button class="btn1">400 taka</button>
-  <button class="btn1">500 taka</button>
-</div>
-<div id="btn2" style="margin: 20px;">
-  <input type="text" placeholder="taka de halar pola naile tre " style="margin-bottom: 20px;color:  gray;border: none;">
-  <div style="width: 600px; border: 1px solid rgb(180, 175, 175) ;">
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-  </div>
-  <button style="padding: 10px;background-color: red;
-  color: white;
-border: none; margin: 2px;margin: 20px;">
-    teka daw besi
-  </button>
-</div>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m Muhammad, a CSE student. I like coding, football, and building games. 
+  I’m pragmatic, a bit lazy, but I get things done my way. Always learning, always pushing, even if it’s from my comfort zone.</p>
   </section>
-<section id="kochu"><div>
-  <h1 style="font-size: 65px;">
-    our donate plan
-  </h1>
-  <p style="margin: 5px;">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, vero.
-  </p>
-</div>
-<div class="fein">
-<button style="background-color: hsl(186, 36%, 48%);" class="fein2">
-  <h1>Food for a family</h1>
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quae maiores porro?</p>
-</button>
 
-<button style="background-color: hsl(0, 100%, 67%);" class="fein2">
-  <h1>Shelter for a family</h1>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa quia impedit officia.</p>
-</button>
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Etheral Clashes</h3>
+        <p>A magic-powered fighting game built in C++.</p>
+      </div>
+      <div class="card">
+        <h3>AI Buddy</h3>
+        <p>AI learning helper app made for kids.</p>
+      </div>
+  
+    </div>
+  </section>
 
-<button style="background-color: hsl(0, 26%, 55%);" class="fein2">
-  <h1>Education for a child </h1>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia quas odio ab!</p>
-</button>
-</div>
-</section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: appleofdiscordroyalguide@gmail.com</p>
+       <a style="text-decoration: none;" href="https://www.linkedin.com/in/alim-shahriar/"></a>
+  </section>
 
+  <footer>
+    <p>&copy; 2025 Alim Shahriar</p>
  
-      <section  id="banner3">
-        <div>
-        <h1 style="font-size: 34px;">
-          No more homeless,
-        </h1>
-        <h1 style="font-size: 34px;">
- no more hunger
-        </h1>
-        <p>
-         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam ullam nemo officiis excepturi assumenda molestiae dignissimos minus dolores, sunt nam.
-        
-        </p>
-        <div>
-          <button class="btn">kivabe teka diba</button>
-      
-        </div>
-    </div>
-    <div style="position: relative;">
-      <img style="width: 400px;" src="sobi/donate first.jpg" alt="">
-      
-    </div>
-    </section>
-  <section  id="banner4">
-    
-    </div>
-    <div style="position: relative;">
-      <img style="width: 400px;" src="sobi/siuu.jpg" alt="">
-      
-    </div>
-        <div id="yo">
-        <h1 style="font-size: 34px;">
-       dan korle,
-        </h1>
-        <h1 style="font-size: 34px;">
-rizq bare subhanallah
-        </h1>
-        <p>
-         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam ullam nemo officiis excepturi assumenda molestiae dignissimos minus dolores, sunt nam.
-        
-        </p>
-        <div>
-          <button class="btn">kivabe teka diba</button>
-      
-        </div>
-    </section>
-<section>
-<div>
-  <h1 style="font-size: 65px; text-align: center;">
-Get my updates
-  </h1>
-  <p style="text-align: center;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi consectetur eaque facere aliquam illo, et eum. Reprehenderit dolorum cum molestiae.</p>
-</div>
-<div   id="banner5">
-<button>email</button>
-<button>subscribe</button>
-</div>
+  </footer>
 
-
-</section>
-  <!-- <script src="iskript/script.js"></script> -->
 </body>
-
 </html>
