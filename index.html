@@ -4,104 +4,104 @@
   <meta charset="UTF-8">
   <title>My Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-     
-      background: #0d0d0d; 
-      color: #fce4ec; 
-    }
-    header {
-      text-align: center;
-      padding: 3rem 1rem;
-      background: linear-gradient(135deg, #29001a, #0d0d0d);
-      box-shadow: 0 0 20px #ff007f;
-    }
-    header img {
-      width: 160px;
-      height: 160px;
-      border-radius: 50%;
-      border: 4px solid #ff007f;
-      box-shadow: 0 0 15px #ff007f;
-    }
-    header h1 {
-      margin: 1rem 0 0.5rem;
-      color: #ff4da6;
-      text-shadow: 0 0 8px #ff007f;
-    }
-    header p {
-      font-size: 1.1rem;
-      color: #ff99cc;
-    }
-    nav {
-      background: #1a0013;
-      text-align: center;
-      padding: 1rem;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      box-shadow: 0 2px 10px #ff007f33;
-    }
-    nav a {
-      color: #ff66b2;
-      margin: 0 20px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: 0.3s;
-    }
-    nav a:hover {
-      color: #fff;
-      text-shadow: 0 0 10px #ff007f;
-    }
-    section {
-      padding: 4rem 2rem;
-      text-align: center;
-    }
-    section h2 {
-      color: #ff4da6;
-      margin-bottom: 1.5rem;
-      text-shadow: 0 0 10px #ff007f;
-    }
-    .projects {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 25px;
-    }
-    .card {
-      background: #1a0013;
-      padding: 1.5rem;
-      border-radius: 15px;
-      width: 260px;
-      box-shadow: 0 0 15px #ff007f44;
-      transition: 0.3s;
-    }
-    .card:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 0 25px #ff007f;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #1a0013;
-      color: #ff99cc;
-      box-shadow: 0 -2px 15px #ff007f33;
-    }
-    header img {
-  width: 250px;  /* bigger */
+<style>
+  html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: #0d0d0d; 
+  color: #fce4ec; 
+}
+header {
+  text-align: center;
+  padding: 48px 16px; 
+  background: linear-gradient(135deg, #29001a, #0d0d0d);
+  box-shadow: 0 0 20px #ff007f;
+}
+header img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid #ff007f;
+  box-shadow: 0 0 15px #ff007f;
+}
+
+header h1 {
+  margin: 16px 0 8px;
+  color: #ff4da6;
+  text-shadow: 0 0 8px #ff007f;
+}
+header p {
+  font-size: 18px; 
+  color: #ff99cc;
+}
+nav {
+  background: #1a0013;
+  text-align: center;
+  padding: 16px; 
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  box-shadow: 0 2px 10px #ff007f33;
+}
+nav a {
+  color: #ff66b2;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+nav a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #ff007f;
+}
+section {
+  padding: 64px 32px; 
+  text-align: center;
+}
+section h2 {
+  color: #ff4da6;
+  margin-bottom: 24px; 
+  text-shadow: 0 0 10px #ff007f;
+}
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.card {
+  background: #1a0013;
+  padding: 24px; 
+  border-radius: 15px;
+  width: 260px;
+  box-shadow: 0 0 15px #ff007f44;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px #ff007f;
+}
+footer {
+  text-align: center;
+  padding: 16px; 
+  background: #1a0013;
+  color: #ff99cc;
+  box-shadow: 0 -2px 15px #ff007f33;
+}
+header img {
+  width: 250px;
   height: 250px;
   border-radius: 50%;
   border: 5px solid #ff007f;
   box-shadow: 0 0 25px #ff007f;
 }
-
 #about {
-  max-width: 800px;   /* keep it centered and wider */
+  max-width: 800px;
   margin: 0 auto;
-  font-size: 1.3rem;  /* bigger text */
-  line-height: 1.8;
+  font-size: 21px; 
+  line-height: 28px; 
 }
-  </style>
+</style>
 </head>
 <body>
 
@@ -119,14 +119,17 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>I’m Muhammad, a CSE student. I like coding, football, and building games. 
-  I’m pragmatic, a bit lazy, but I get things done my way. Always learning, always pushing, even if it’s from my comfort zone.</p>
+  <p style="font-size: 20px; line-height: 1.6;  max-width: 800px; margin: 0 auto; text-align: center; background: rgba(255,0,127,0.1); padding: 20px; border-radius: 12px; box-shadow: 0 0 20px rgba(255,0,127,0.3);">
+  I’m Alim Shahriar</span>, a 3rd-semester CSE student at IIUC. I’m passionate about coding , game development, and creating software that challenges creativity. Outside of programming, I enjoy football, and exploring new tech.
+</p>
+
   </section>
 
   <section id="projects">
     <h2>My Projects</h2>
     <div class="projects">
       <div class="card">
+         <img src="1.png" alt="Etheral Clashes" style="width:100%; border-radius: 10px; margin-bottom: 12px;">
         <h3>Etheral Clashes</h3>
         <p>A magic-powered fighting game built in C++.</p>
       </div>
@@ -140,8 +143,8 @@
 
   <section id="contact">
     <h2>Contact Me</h2>
-    <p>Email: appleofdiscordroyalguide@gmail.com</p>
-       <a style="text-decoration: none;" href="https://www.linkedin.com/in/alim-shahriar/"></a>
+ <p>Email:  <img src="2.png" alt="Email" style="width: 20px; height:15px; vertical-align: text-top;;">Alim Shahriar</a></p>
+    <p>Linkedin : <a style="text-decoration: none; color:  white  ;"  href="https://www.linkedin.com/in/alim-shahriar/"> <img src="Linkedin.png" alt="LinkedIn" style="width: 20px; height:15px; vertical-align: text-top;;">Alim Shahriar</a></p>
   </section>
 
   <footer>
